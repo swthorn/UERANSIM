@@ -18,6 +18,7 @@ namespace nr::ue
 
 void NasMm::onTimerExpire(UeTimer &timer)
 {
+    return;
     auto logExpired = [this, &timer]() {
         m_logger->debug("NAS timer[%d] expired [%d]", timer.getCode(), timer.getExpiryCount());
     };
