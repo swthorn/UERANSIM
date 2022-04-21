@@ -36,7 +36,7 @@ std::unique_ptr<UeTimer> NasSm::newTransactionTimer(int code)
         return nullptr;
     }
 
-    timer->start();
+//    timer->start();
     return timer;
 }
 
